@@ -13,6 +13,11 @@ Each MCU requires a two-stage flashing process:
 - First with Katapult (bootloader)
 - Then with Klipper firmware
 
+For detailed information on specific topics, please refer to these guides:
+- [Hardware Information](hardware.md) - Details about the Qidi Plus 4 hardware
+- [Klipper Information](klipper.md) - Klipper-specific configuration and usage
+- [Kalico Information](kalico.md) - Kalico-specific features and setup
+
 ## Prerequisites
 
 - SSH access to your Qidi Plus 4 printer
@@ -36,13 +41,9 @@ Process for installing Katapult on the toolhead MCU.
 ### 2. Flashing Klipper
 Instructions for flashing Klipper firmware to the toolhead MCU.
 
-## Configuration
-
-Information about setting up and configuring Klipper for the Qidi Plus 4 after firmware installation.
-
 ## Troubleshooting
 
-Common issues and their solutions when flashing and running Klipper on Qidi Plus 4.
+Common issues and their solutions when flashing firmware on Qidi Plus 4.
 
 ## Resources
 
