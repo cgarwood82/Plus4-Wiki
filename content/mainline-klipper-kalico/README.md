@@ -41,6 +41,20 @@ For detailed information on specific topics, please refer to these guides:
 - Basic understanding of Linux command line
 - Backups of your existing configurations
 - stlink v2 programmer for toolhead
+- an eMMC adapter
+- an extra eMMC card (optional)
+
+## Backup
+Backup your `printer_data` directory before you proceed. The following will backup everything except your gcode files. Adjust the command to include/exclude other directories you may want to save or discard.
+
+```
+cd ~/printer_data
+tar --exclude='./gcodes' -zcvf config/plus4-backup.tgz .
+```
+
+After the command completes, you can easily download it to your computer from the Fluidd interface by going to the Configuration section and downloading the `plus4-backup.tgz` file.
+
+Another option is to use a new eMMC and store the stock eMMC in a safe place.
 
 ## Flashing the System MCU
 
