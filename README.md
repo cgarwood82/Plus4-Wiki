@@ -113,6 +113,8 @@ of the Qidi Plus4 3D printer.
 
 ### [(Retired) Klippain Shake & Tune v4.1.0 - Qidi Plus 4 Compatible Version](https://github.com/qidi-community/ShakeTune-For-Plus4)
 
+### [Mainline Klipper and Katapult for Qidi Plus 4](./content/mainline-klipper-kalico/README.md)
+
 ---
 
 ## Aftermarket Parts
