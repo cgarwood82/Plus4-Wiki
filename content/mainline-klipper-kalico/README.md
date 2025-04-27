@@ -97,7 +97,8 @@ systemctl mask serial-getty@ttyS2.service
 For more information on these changes, see here: https://github.com/frap129/armbian_qidi-q1-pro#disable-debug-console-uart2--or-freeup-uart1-interface
 
 ## Installing klipper/kalico, moonraker, fluidd/mainsail and friends
-[!TIP]
+
+[!NOTE]
 IF YOU INSTALLED THE Q1 PRO IMAGE FROM ABOVE, YOU CAN SKIP THESE STEPS AS KLIPPER AND FRIENDS ARE ALREADY INSTALLED. CONTINUE ON TO SYSTEM MCU FLASHING. 
 
 ### Installing KIAUH
@@ -115,7 +116,7 @@ You will now be entered into the KIAUH main menu where you can install the softw
 
 KIAUH should automatically install all the required modules and start the services for you.
 
-After everything is installed, we can move your backed up configurations over to the new setup:
+After everything is installed, you can move your backed up configurations over to the new setup:
 Copy your `printer.cfg` and `gcode_macros` to `~/printer_data/config`
 
 
