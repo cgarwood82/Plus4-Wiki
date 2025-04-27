@@ -96,6 +96,28 @@ systemctl mask serial-getty@ttyS2.service
 ```
 For more information on these changes, see here: https://github.com/frap129/armbian_qidi-q1-pro#disable-debug-console-uart2--or-freeup-uart1-interface
 
+## Installing klipper/kalico, moonraker, fluidd/mainsail and friends
+[!TIP]
+IF YOU INSTALLED THE Q1 PRO IMAGE FROM ABOVE, YOU CAN SKIP THESE STEPS AS KLIPPER AND FRIENDS ARE ALREADY INSTALLED. CONTINUE ON TO SYSTEM MCU FLASHING. 
+
+### Installing KIAUH
+KIAUH is a helper script to install klipper/kalico, mainsail, fluidd, crowsnest, moonraker, and many other things you may need or want.
+The following steps will get KIAUH installed:
+```
+  cd ~
+  git clone https://github.com/dw-0/kiauh.git
+  ./kiauh/kiauh.sh
+```
+You will now be entered into the KIAUH main menu where you can install the software needed. At a minium, install the following:
+* Klipper (or Kalico)
+* moonraker
+* fluidd (or mainsail)
+
+KIAUH should automatically install all the required modules and start the services for you.
+
+After everything is installed, we can move your backed up configurations over to the new setup:
+Copy your `printer.cfg` and `gcode_macros` to `~/printer_data/config`
+
 
 ## Flashing the System MCU
 
