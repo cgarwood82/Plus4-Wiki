@@ -98,8 +98,8 @@ For more information on these changes, see here: https://github.com/frap129/armb
 
 ## Installing klipper/kalico, moonraker, fluidd/mainsail and friends
 
-[!NOTE]
-IF YOU INSTALLED THE Q1 PRO IMAGE FROM ABOVE, YOU CAN SKIP THESE STEPS AS KLIPPER AND FRIENDS ARE ALREADY INSTALLED. CONTINUE ON TO SYSTEM MCU FLASHING. 
+> [!NOTE]
+> IF YOU INSTALLED THE Q1 PRO IMAGE FROM ABOVE, YOU CAN SKIP THESE STEPS AS KLIPPER AND FRIENDS ARE ALREADY INSTALLED. CONTINUE ON TO SYSTEM MCU FLASHING. 
 
 ### Installing KIAUH
 KIAUH is a helper script to install klipper/kalico, mainsail, fluidd, crowsnest, moonraker, and many other things you may need or want.
